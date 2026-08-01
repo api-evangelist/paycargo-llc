@@ -1,0 +1,71 @@
+# PayCargo Help Center
+
+## Frequently Asked Questions
+
+- [Find Answers](https://support.paycargo.com/readme.md)
+- [What is PayCargo?](https://support.paycargo.com/general/what-is-paycargo.md)
+- [What is an Overnight Limit?](https://support.paycargo.com/general/what-is-an-overnight-limit.md)
+- [What is the Credit Card Limit?](https://support.paycargo.com/general/what-is-the-credit-card-limit.md)
+- [What is Same Day Release?](https://support.paycargo.com/general/what-is-same-day-release.md)
+- [Account Information](https://support.paycargo.com/general/account-information.md)
+- [How to update my bank account](https://support.paycargo.com/general/account-information/how-to-update-my-bank-account.md)
+- [How to unlock my account or reset my password](https://support.paycargo.com/general/account-information/how-to-unlock-my-account-or-reset-my-password.md)
+- [How to generate ACH reports](https://support.paycargo.com/general/account-information/how-to-generate-ach-reports.md)
+- [How to update user and company details](https://support.paycargo.com/general/account-information/how-to-update-user-and-company-details.md)
+- [User Permissions](https://support.paycargo.com/general/account-information/user-permissions.md)
+- [PayCargo Payments](https://support.paycargo.com/payments-and-finance/products.md)
+- [PayCargo for Guests](https://support.paycargo.com/payments-and-finance/products/paycargo-for-guests.md)
+- [Payer/ Shipper Account](https://support.paycargo.com/payments-and-finance/products/payer-shipper-account.md): Make Payments
+- [Canadian Payers](https://support.paycargo.com/payments-and-finance/products/payer-shipper-account/canadian-payers.md): Make Payments in Canada
+- [Vendor/ Carrier Account](https://support.paycargo.com/payments-and-finance/products/vendor-carrier-account.md): Receive Payments
+- [Canadian Vendors](https://support.paycargo.com/payments-and-finance/products/vendor-carrier-account/canadian-vendors.md): Receive Payments in Canada
+- [Application & Remittance](https://support.paycargo.com/payments-and-finance/application-and-remittance.md)
+- [Generating Reports](https://support.paycargo.com/payments-and-finance/application-and-remittance/generating-reports.md): PayCargo lets users generate detailed ACH reports to track and reconcile freight payments through a digital dashboard. It supports fast, secure payments (ACH, credit, or prepaid) with real-time tracki
+- [What is the cutoff time to process a payment?](https://support.paycargo.com/payments-and-finance/application-and-remittance/cutoff-times.md)
+- [Are payments processed on weekends or holidays?](https://support.paycargo.com/payments-and-finance/application-and-remittance/holidays-and-weekend-payments.md)
+- [Cancellations and Refunds](https://support.paycargo.com/payments-and-finance/cancellations-and-refunds.md)
+- [Policy](https://support.paycargo.com/payments-and-finance/cancellations-and-refunds/policy.md)
+- [How to cancel or edit a transaction?](https://support.paycargo.com/payments-and-finance/cancellations-and-refunds/how-to-cancel-or-edit-a-transaction.md)
+- [How to request a refund for a cleared payment?](https://support.paycargo.com/payments-and-finance/cancellations-and-refunds/how-to-request-a-refund-for-a-cleared-payment.md)
+- [How is a vendor informed of voided or refunded transactions?](https://support.paycargo.com/payments-and-finance/cancellations-and-refunds/notifications.md)
+- [PayCargo Finance](https://support.paycargo.com/payments-and-finance/paycargo-finance.md)
+- [What is the PayCargo Credit?](https://support.paycargo.com/payments-and-finance/paycargo-finance/what-is-the-paycargo-credit.md)
+- [Container Payment Portal](https://support.paycargo.com/integrations-and-customizations/container-payment-portal.md)
+- [What is the Container Payment Portal?](https://support.paycargo.com/integrations-and-customizations/container-payment-portal/what-is-the-container-payment-portal.md)
+- [Free time request](https://support.paycargo.com/integrations-and-customizations/container-payment-portal/free-time-request.md)
+- [APM Terminals](https://support.paycargo.com/integrations-and-customizations/apm-terminals.md)
+- [Hapag-Lloyd](https://support.paycargo.com/integrations-and-customizations/hapag-lloyd.md)
+- [Claim your invoice](https://support.paycargo.com/integrations-and-customizations/hapag-lloyd/claim-your-invoice.md)
+- [Customizations](https://support.paycargo.com/integrations-and-customizations/customizations.md)
+- [Understanding PayCargo pricing and plans](https://support.paycargo.com/pricing/paycargo-cost.md)
+- [Pricing per region](https://support.paycargo.com/pricing/pricing-per-region.md)
+
+## Demos & Resources
+
+- [Walkthrough Demos](https://support.paycargo.com/demos/demos.md)
+- [Walkthrough Demos- Angular](https://support.paycargo.com/demos/demos-1.md): Watch step-by-step demo videos that walk through key workflows in the PayCargo platform.
+- [Guides](https://support.paycargo.com/demos/guides.md)
+
+## Troubleshooting
+
+- [Troubleshooting](https://support.paycargo.com/troubleshooting/troubleshooting.md)
+
+## Product Updates
+
+- [Product Updates](https://support.paycargo.com/product-updates/readme.md): Stay up to date with the latest PayCargo platform updates, integrations, and vendor additions designed to help logistics teams move cargo faster and manage payments more efficiently.
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://support.paycargo.com/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

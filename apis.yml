@@ -1,26 +1,108 @@
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
 aid: paycargo-llc
 name: PayCargo, LLC
-description: PayCargo, LLC is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  PayCargo, LLC is a fintech platform for the global logistics and freight
+  industry, providing digital freight-payment processing, accounts-payable
+  automation, and supply-chain payment visibility. Founded in 2007, PayCargo
+  connects payers (shippers, freight forwarders, cargo owners) with vendors
+  (carriers, terminals, warehouses, and other logistics providers) so freight
+  charges can be paid electronically via ACH, credit card, or prepaid funds
+  for faster cargo release. The platform spans ocean, air, and intermodal
+  freight and offers products including PayCargo Payments, AP Automation, the
+  Container Payment Portal, PayCargo Finance, and document/response automation.
+  PayCargo exposes a partner-facing API (GET/POST) for retrieving charges due,
+  processing payments, and reconciling transactions directly from a customer's
+  own accounting/TMS systems, alongside EDI and SFTP integration options. API
+  access is provisioned to partners rather than published as an open developer
+  portal.
 url: https://raw.githubusercontent.com/api-evangelist/paycargo-llc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://paycargo.com/wp-content/uploads/2026/02/PayCargo_featured_2026.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: portfolio-lead-enriched
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Payments
+- Freight
+- Logistics
+- Supply Chain
+- Fintech
+- Accounts Payable
+- Shipping
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis:
+- name: PayCargo Platform API
+  description: >-
+    Partner-facing PayCargo API for retrieving charges due, processing
+    payments, and reconciling transactions directly from a customer's
+    accounting or transportation-management system. Uses GET and POST calls;
+    access is provisioned to integration partners (auth-gated, no public
+    OpenAPI). Complemented by EDI and SFTP integration options.
+  humanURL: https://paycargo.com/integrations/
+  baseURL: https://api.paycargo.com
+  tags:
+  - Payments
+  - Freight
+  - Reconciliation
+  properties:
+  - type: Documentation
+    url: https://paycargo.com/integrations/
 common:
+- type: DomainSecurity
+  url: security/paycargo-llc-domain-security.yml
 - type: Website
-  url: https://web.paycargo.com/
+  url: https://paycargo.com/
+- type: Documentation
+  url: https://support.paycargo.com/
+- type: HelpCenter
+  url: https://support.paycargo.com/
+- type: Support
+  url: https://paycargo.com/contact-sales/
+- type: Integrations
+  url: https://paycargo.com/integrations/
+- type: Blog
+  url: https://paycargo.com/blog/
+- type: Pricing
+  url: https://paycargo.com/pricing/
+- type: SignUp
+  url: https://paycargo.com/sign-up/
+- type: Login
+  url: https://go.paycargo.com/
+- type: TermsOfService
+  url: https://paycargo.com/platform-terms-of-use/
+- type: PrivacyPolicy
+  url: https://paycargo.com/privacy-policy/
+- type: Compliance
+  url: https://paycargo.com/security-compliance/
+- type: ChangeLog
+  url: https://support.paycargo.com/product-updates/
+- type: LLMsTxt
+  url: llms/paycargo-llc-llms.txt
+- type: Conformance
+  url: conformance/paycargo-llc-conformance.yml
