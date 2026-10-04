@@ -4,7 +4,7 @@ x-enrichment:
   artifacts_added: 3
   pass: local-v1
 aid: paycargo-llc
-name: PayCargo, LLC
+name: PayCargo
 description: >-
   PayCargo, LLC is a fintech platform for the global logistics and freight
   industry, providing digital freight-payment processing, accounts-payable
@@ -117,3 +117,4 @@ common:
   url: llms/paycargo-llc-llms.txt
 - type: Conformance
   url: conformance/paycargo-llc-conformance.yml
+x-legal-name: PayCargo, LLC
