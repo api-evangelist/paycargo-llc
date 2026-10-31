@@ -1,4 +1,4 @@
-# PayCargo, LLC
+# PayCargo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,92 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-PayCargo, LLC is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+PayCargo, LLC is a fintech platform for the global logistics and freight industry, providing digital freight-payment processing, accounts-payable automation, and supply-chain payment visibility. Founded in 2007, PayCargo connects payers (shippers, freight forwarders, cargo owners) with vendors (carriers, terminals, warehouses, and other logistics providers) so freight charges can be paid electronically via ACH, credit card, or prepaid funds for faster cargo release. The platform spans ocean, air, and intermodal freight and offers products including PayCargo Payments, AP Automation, the Container Payment Portal, PayCargo Finance, and document/response automation. PayCargo exposes a partner-facing API (GET/POST) for retrieving charges due, processing payments, and reconciling transactions directly from a customer's own accounting/TMS systems, alongside EDI and SFTP integration options. API access is provisioned to partners rather than published as an open developer portal.
 
-Backed by: insight-partners — https://web.paycargo.com/
+**Areas:** Company · Payments · Freight · Logistics · Supply Chain · Fintech · Accounts Payable · Shipping
+
+## PayCargo on APIs.io
+
+Everything profiled for PayCargo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/paycargo-llc/](https://apis.io/providers/paycargo-llc/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [PayCargo Platform API](https://apis.io/apis/paycargo-llc/paycargo-platform-api/) — Partner-facing PayCargo API for retrieving charges due, processing payments, and reconciling transactions directly from a customer's accounting or…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Paycargo Llc Domain Security](https://apis.io/security/paycargo-llc/paycargo-llc-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://paycargo.com/)
+- [Documentation](https://support.paycargo.com/)
+- [Pricing](https://paycargo.com/pricing/)
+- [Sign up](https://paycargo.com/sign-up/)
+- [Support](https://paycargo.com/contact-sales/)
+- [Changelog](https://support.paycargo.com/product-updates/)
+- [Blog](https://paycargo.com/blog/)
+- [Compliance](https://paycargo.com/security-compliance/)
+- [Terms of service](https://paycargo.com/platform-terms-of-use/)
+- [Privacy policy](https://paycargo.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 26.8** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 52.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 28.6** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/paycargo-llc/](https://apis.io/providers/paycargo-llc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PayCargo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/paycargo-llc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
